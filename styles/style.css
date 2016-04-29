@@ -1,3 +1,5 @@
 body {background-color:white}
-.button {align-items: center;
-padding: 16px}
+#buttons {align-items: center; padding-left: 16px; padding-right: 16px
+}
+.button-left {margin: 11px 4px;}
+.button-right {margin: 11px 4px;}
