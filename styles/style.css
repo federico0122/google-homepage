@@ -9,3 +9,32 @@ margin:auto}
 #bar{ object-position: center;}
 .bottom {width:1900px; position:fixed; bottom: 0px; height: 45px; background-color: gainsboro}
 .top{max-width: inherit; margin-top: 5px}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+
+#square {
+    margin-top: 12px
+
+}
+li a {
+    display: block;
+    color: #737373;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
