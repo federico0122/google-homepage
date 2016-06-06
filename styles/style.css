@@ -3,19 +3,19 @@ body {background-color:white; margin: 0px}
 .buttons {align-items: center; padding-left: 16px; padding-right: 16px; 
 margin:auto}
 .button-left {margin: 11px 4px;}
-.button-right {margin: 11px 4px;}
+.button-right {margin: 11px 4px; position: fixed; }
 #googleimage {position: relative; left: 20px; align-content: center; height: 92px; margin-top: 89px; width: 272px }
-.blue {position: relative; top:200px; left: 500px }
+.blue {position: relative; top:200px; left: 500px; display: inline-block}
 #bar{ object-position: center;}
-.bottom {width:1900px; position:fixed; bottom: 0px; height: 45px; background-color: gainsboro}
 .top{max-width: inherit; margin-top: 5px}
 
-ul {
+.top {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
+    font-family:"Arial", sans-serif;
 }
 
 li {
@@ -24,9 +24,7 @@ li {
 
 
 #square {
-    margin-top: 12px
-
-}
+    margin-top: 12px }
 li a {
     display: block;
     color: #737373;
@@ -38,3 +36,15 @@ li a {
 li a:hover {
     background-color: white;
 }
+#bottom {  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family:"Arial", sans-serif;
+    position: fixed; 
+    bottom: 0px;
+}
+.content {display: inline-block}
+
+.
